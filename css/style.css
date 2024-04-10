@@ -1,0 +1,188 @@
+:root {
+  --main-color: #212121;
+  --hover-color-blue: #2196f3;
+  --white-text: #fff;
+  --basic-text: #757575;
+  --background-lite: #f5f4fa;
+  --background-dark: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--main-color);
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: var(--background-dark);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font: bold;
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.navg {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.navg:hover,
+.navg:focus {
+  color: var(--hover-color-blue);
+}
+.link-nav {
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--hover-color-blue);
+}
+.h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white-text);
+}
+.main-but {
+  background-color: var(--hover-color-blue);
+  width: 216px;
+  height: 50px;
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  margin-left: 692px;
+  text-align: center;
+  cursor: pointer;
+}
+.main-but :active {
+  background-color: #188ce8;
+}
+.decisions {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+}
+.dectext {
+  font-weight: 400;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--basic-text);
+}
+.present {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team {
+  background-color: var(--background-lite);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.profesion {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--basic-text);
+  text-align: center;
+}
+.footer {
+  background-color: var(--background-dark);
+}
+
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+  font-style: normal;
+}
+.appeal {
+  font-weight: 400;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+.appeal:hover,
+.appeal:focus {
+  color: #ffffffbe;
+}
+.filters {
+  background-color: var(--background-lite);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: 38px;
+  cursor: pointer;
+}
+.filters:hover,
+.filters:focus,
+.filters:active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white-text);
+  background: var(--hover-color-blue);
+}
+.sub-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+letter-spacing: 0.06em;
+color:var(--main-color);
+text-decoration: none;
+}
+.filter-class{
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.03em;
+color: var(--basic-text);
+text-decoration: none;
+}
+.card{
+  text-decoration: none;
+}

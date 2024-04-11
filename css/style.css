@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 header {
-  border-bottom: #ececec solid;
+  border-bottom: 1px #ececec solid;
 }
 h1,
 h2,
@@ -43,22 +43,18 @@ section {
 .logo {
   display: inline-block;
   font-family: Raleway, sans-serif;
-  font: bold;
   text-decoration: none;
 
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-top: 24px;
-  margin-bottom: 24px;
   margin-right: 93px;
 }
 .logo-footer {
   display: block;
   margin-bottom: 20px;
   font-family: Raleway, sans-serif;
-  font: bold;
   text-decoration: none;
 
   font-weight: 700;
@@ -142,11 +138,13 @@ section {
 .text-block {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: 94px;
+  /* margin-left: -30px;
+  margin-bottom: 94px; */
 }
 .text-block .item {
   width: 270px;
+}
+.text-block .item + .item{
   margin-left: 30px;
 }
 
@@ -158,6 +156,8 @@ ul {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--basic-text);
+  padding-bottom: 0;
+ 
 }
 .present {
   font-weight: 700;
@@ -314,9 +314,12 @@ ul {
 .header.list {
   display: flex;
   margin-left: auto;
+  white-space: nowrap;
 }
 .nav {
   display: flex;
+  align-items: center;
+  
 }
 .nav .item:not(:first-child) {
   margin-left: 50px;

@@ -32,6 +32,9 @@ section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+image{
+  display: block;
+}
 .hero {
   background-color: var(--background-dark);
   padding-bottom: 280px;
@@ -186,12 +189,15 @@ ul {
   text-align: center;
   margin-bottom: 50px;
 }
+.members{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
 }
 .people {
   display: flex;
@@ -254,7 +260,13 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   border: transparent;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+
 }
+
 .filters:hover,
 .filters:focus,
 .filters:active {
@@ -270,15 +282,13 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -8px;
   margin-bottom: 50px;
+  gap: 8px;
 }
-.filter-list .item {
-  margin-left: 8px;
-}
+
 .sub-title {
-  margin-top: 20px;
-  margin-left: 24px;
+  /* margin-top: 20px;
+  margin-left: 24px; */
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
@@ -288,7 +298,6 @@ ul {
 }
 .filter-class {
   margin-top: 4px;
-  margin-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 187%;
@@ -300,12 +309,16 @@ ul {
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  gap: 30px;
 }
-.portfolio-cards .item {
-  margin-left: 30px;
-  margin-bottom: 30px;
-  outline: #eeeeee solid;
+.border-cards{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .card {
